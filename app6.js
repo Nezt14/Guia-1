@@ -1,5 +1,6 @@
-let frase = prompt("Ingresa una frase:");
-let palabras = frase.split(" ");
+let readline = require("readline:");
+
+let palabras = readline.split(" ");
 let numeroDePalabras = palabras.length;
 
 alert("Número de palabras en la frase: " + numeroDePalabras);
