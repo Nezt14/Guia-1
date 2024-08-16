@@ -6,6 +6,6 @@ let rl= readline.createInterface(
 )
 rl.question("Ingrese un mensaje:", (mensaje)=>{
     const cadena=mensaje.toUpperCase()
-    console.log("la cadena de caractes es mayuscula es: ${cadena}")
+    console.log(`la cadena de caractes es mayuscula es: ${cadena}`)
     process.exit()
 })

@@ -7,7 +7,7 @@ let rl= readline.createInterface(
 
 rl.question("cual es tu nombre? ", (nombre)=> {
         rl.question("cual es tu apellido? ", (apellido)=>{
-            console.log("hola, ${nombre} ${apellido}!")
+            console.log(`hola, ${nombre} ${apellido}!`)
             process.exit()
         })
 })

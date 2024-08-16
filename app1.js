@@ -6,5 +6,5 @@ let rl = readline.createInterface(
 
 
 rl.question("cual es su nombre?", (nombre)=> {
-    console.log("Hola, ${nombre}!")
+    console.log(`Hola, ${nombre}!`)
 })
